@@ -3,4 +3,5 @@
 第三步 将文件提交到git git commit -m “commit messages”
 第四步 创建分支 git branch branchName 并切换到分支 git checkout branchName
 第五步 合并分支，合并分支要切换到合并分支（主分支）git checkout master，然后 git merge branchName
-第六步 删除本地分支，git branch -d branchName:
+第六步 删除本地分支，git branch -d branchName
+第七步 尽心一次回滚；
