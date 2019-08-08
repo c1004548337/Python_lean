@@ -1,6 +1,6 @@
 第一步 在Github上创建仓库，并在git上 git clone ***仓库地址***
 第二步 本地创建文件并交给git管理，git add firlrname
-第三步 将文件提交到git git commit -m “commit messages”
+第三步 将文件提交到git git commit -m “commit messages”,然后执行git push branchName.
 第四步 创建分支 git branch branchName 并切换到分支 git checkout branchName
 第五步 合并分支，合并分支要切换到合并分支（主分支）git checkout master，然后 git merge branchName
 第六步 删除本地分支，git branch -d branchName
